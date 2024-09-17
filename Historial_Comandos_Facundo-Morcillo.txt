@@ -1,0 +1,180 @@
+ssh-keygen
+ls
+cat $HOME/.ssh/
+cat $HOME/.ssh/*.pub
+ls
+mkdir repogit
+ls
+cd repogit/
+ls
+git clone git@github.com:Facundo244/TP_AySO.git
+sudo apt update
+sudo apt install git
+git clone git@github.com:Facundo244/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+pdw
+pwd
+ls -l
+cat /etc/os_release
+cd ll
+ cd ..
+cd  ..
+cd ..
+ls
+cd ..
+cd etc/
+ls
+cd os_realease
+sudo apt-get install --reinstall base-files
+cd os_realease
+ls
+cat os-release 
+cd ..
+cd .
+ls
+cd home/
+ls
+cd facundo/
+ls
+cd Desktop/
+ls
+cd ..
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cat os-release 
+cat /etc/os-release
+grep HOME_URL/etc/os-release
+cat /etc/os-release
+grep https://www.debian.org/etc/os-release
+grep HOME_URL/etc/os-release
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+man grep
+grep -v Home_url /etc/os-release
+grep -r Home_url /etc/os-release
+grep -n Home_url /etc/os-release
+grep -v Home_url /etc/os-release
+grep -l Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuarios.txt
+ls
+git add .
+git config --global user.email "facaagus@gmail.com"
+git config --global user.name "Facundo244"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+cd proc/
+ls
+cd cpuinfo 
+cat cpuinfo 
+cd ..
+cd ..
+ls
+ cd home/
+ls
+cd facundo/
+ls
+cd Desktop/
+ls
+cd repogit
+ls
+cd ..
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cat /proc/cpuinfo
+cat /proc/cpuinfo tail -n1
+grep "model name" /proc/cpuinfo tail -n1
+grep "model name" /proc/cpuinfo head -n1
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt 
+ls
+cat datos_usuarios.txt 
+git add .
+git commit -m "feat: Aniadiendo informacion CPU"
+git push
+man grep
+grep -v "/nologin" 
+grep -v "/nologin" | head -n 10 | sort -t, -k 7 
+grep -v "/nologin" etc/passwd | head -n 10 | sort -t, -k 7 
+grep -v "/nologin" /etc/passwd | head -n 10 | sort -t, -k 7 
+grep -v "/nologin" /etc/passwd | head -n 10 | sort -t: -k 7 > lista_ordenada 
+ls
+cat lista_ordenada 
+ls
+git add .
+git commit -m "ADD: listado de usuarios ordenada"
+git push
+ls
+touch comando_dump_net
+ls
+cd lista_ordenada 
+ls
+cd comando_dump_net 
+cat comando_dump_net 
+vim comando_dump_net 
+sudo apt install vim
+vim comando_dump_net 
+ls
+rm comando_dump_net 
+echo "sudo tcpdump -i any -w dumpfile.pcap" > comando_dump_net && echo "apropos 'captura network traffic'" >> comando_dump_net
+ls
+cat comando_dump_net 
+ls
+rm comando_dump_net 
+echo "sudo tcpdump -i any -w dumpfile.pcap" > comando_dump_net && echo "apropos 'capture network traffic'" >> comando_dump_net
+ls
+cat comando_dump_net 
+git add .
+git commit -m "ADD: comando para Capturar y analizar trafico de red"
+git push
+ls
+vim README.md 
+cat README.md 
+cat README.md 
+vim README.md 
+cat <<EOT 
+ls
+vim README.md 
+cat <<EOT >> README.md
+Alumno: Facundo Joel Morcillo
+Division: 211
+Turno: Tarde
+EOT
+
+ls
+cat README.md 
+vim README.md 
+git add .
+git commit -m "informacion alumno"
+git push 
+history -a
+history
+$HOME/.bash_history
+chmod 777 $HOME/.bash_history
+$HOME/.bash_history
+git status
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cd ..
+cd ..
+ls
+rmdir -f repogit/
+rmdir repogit/
+rm -rf repogit/
+ls
+git status
+history -a
